@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" fill="none">
+  <!-- Icono: hoja/ciclo -->
+  <circle cx="25" cy="25" r="18" fill="#5A7B5F" opacity="0.15"/>
+  <path d="M25 12 C25 12 35 18 35 26 C35 31.5 30.5 36 25 36 C25 36 25 28 18 22 C21 18 25 12 25 12Z" fill="#5A7B5F"/>
+  <path d="M25 36 C19.5 36 15 31.5 15 26 C15 20.5 19 16 24 14 C20 19 21 28 25 36Z" fill="#7FAA6A"/>
+  <!-- Texto: Ciclo Aysén -->
+  <text x="50" y="22" font-family="Poppins, sans-serif" font-size="14" font-weight="700" fill="#4A5568">Ciclo</text>
+  <text x="50" y="38" font-family="Poppins, sans-serif" font-size="14" font-weight="600" fill="#5A7B5F">Aysén</text>
+  <text x="102" y="38" font-family="Poppins, sans-serif" font-size="9" font-weight="400" fill="#7FAA6A">SpA</text>
+</svg>
