@@ -76,6 +76,18 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* NATURALEZA — franja bosque nativo */}
+      <section className="relative h-56 md:h-72 overflow-hidden">
+        <Image
+          src="/naturaleza-2.jpeg"
+          alt="Bosque nativo patagónico — Región de Aysén"
+          fill
+          className="object-cover object-bottom"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-[#1C2B1F]/50" />
+      </section>
+
       {/* Equipo */}
       <section className="section-padding bg-gray-50">
         <div className="container-max mx-auto px-4 md:px-8 lg:px-16">

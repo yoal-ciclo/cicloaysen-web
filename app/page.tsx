@@ -128,6 +128,28 @@ export default function Home() {
         </div>
       </section>
 
+      {/* NATURALEZA — franja fotográfica con cita */}
+      <section className="relative h-72 md:h-96 overflow-hidden">
+        <Image
+          src="/naturaleza-1.jpeg"
+          alt="Lenga patagónica en otoño — Región de Aysén"
+          fill
+          className="object-cover object-center"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-[#1C2B1F]/65 flex items-center justify-center px-6">
+          <div className="text-center max-w-2xl">
+            <p className="text-xl md:text-3xl font-semibold text-white leading-relaxed italic">
+              "Desarrollamos procesos de sostenibilidad a diferentes escalas,
+              protegiendo el valor integral de la naturaleza."
+            </p>
+            <span className="inline-block mt-5 text-[#7FAA6A] text-sm tracking-wide">
+              Coyhaique · Región de Aysén · Patagonia Chilena
+            </span>
+          </div>
+        </div>
+      </section>
+
       {/* CTA FINAL */}
       <section className="section-padding bg-[#1C2B1F] text-white text-center">
         <div className="container-max mx-auto px-4 md:px-8 lg:px-16">
