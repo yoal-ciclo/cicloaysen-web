@@ -67,6 +67,10 @@ export const metadata: Metadata = {
     canonical: BASE_URL,
   },
   category: 'business',
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
 }
 
 const jsonLd = {

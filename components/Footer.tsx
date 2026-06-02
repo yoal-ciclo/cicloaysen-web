@@ -73,7 +73,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.linkedin.com/company/cicloaysen"
+                href="https://www.linkedin.com/in/ciclo-ays%C3%A9n-spa-646299412"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
