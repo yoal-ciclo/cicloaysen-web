@@ -43,13 +43,20 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-lg mb-4 text-[#7FAA6A]">Contacto</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li className="flex items-center gap-2">
-                <span>📍</span> Coyhaique, Región de Aysén, Patagonia Chilena
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5">📍</span>
+                <span>Región de Aysén, Patagonia Chilena</span>
               </li>
               <li className="flex items-center gap-2">
                 <span>✉️</span>
                 <a href="mailto:yoaldiaz@cicloaysen.com" className="hover:text-white transition-colors">
                   yoaldiaz@cicloaysen.com
+                </a>
+              </li>
+              <li className="flex items-center gap-2">
+                <span>✉️</span>
+                <a href="mailto:hzimmermann@cicloaysen.com" className="hover:text-white transition-colors">
+                  hzimmermann@cicloaysen.com
                 </a>
               </li>
             </ul>
@@ -81,7 +88,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-10 pt-6 text-center text-gray-500 text-sm">
-          © {year} Ciclo Aysén SpA · Coyhaique, Aysén · Todos los derechos reservados.
+          © {year} Ciclo Aysén SpA · Región de Aysén, Patagonia Chilena · Todos los derechos reservados.
         </div>
       </div>
     </footer>

@@ -7,10 +7,9 @@ const serviceLines = [
     label: 'L1',
     title: 'Gestión del Capital Natural',
     items: [
-      'Desarrollo de proyectos de carbono',
-      'Iniciativas de economía azul y recursos costeros',
-      'Estructuración de financiamiento climático',
-      'Asesoría en uso sostenible de recursos naturales',
+      '1.1. Desarrolladores de proyectos de mercado del carbono',
+      '1.2. Incubadores de financiamiento climático',
+      '1.3. Desarrollo de Economía azul',
     ],
   },
   {
@@ -18,10 +17,8 @@ const serviceLines = [
     label: 'L2',
     title: 'Gestión Ambiental Integral',
     items: [
-      'Compliance ambiental con altos estándares',
-      'Asesoría en regulación ambiental',
-      'Servicios especializados a entidades públicas',
-      'Profesionalización de procesos ambientales',
+      '2.1. Compliance and enforcement ambiental a empresas reguladas y no reguladas y sectores regulados de la producción',
+      '2.2. Servicios profesionales de consultoría y prestación de servicios a entidades públicas',
     ],
   },
 ]
@@ -29,59 +26,75 @@ const serviceLines = [
 export default function Home() {
   return (
     <>
-      {/* HERO — dark, logo prominente */}
-      <section className="bg-[#1C2B1F] relative overflow-hidden">
-        <div className="container-max mx-auto px-4 md:px-8 lg:px-16 py-16 md:py-24">
-          <div className="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16">
+      {/* HERO — fondo fotográfico con overlay */}
+      <section className="relative overflow-hidden min-h-[600px] md:min-h-[680px] flex items-center bg-[#1C2B1F]">
+        {/* Imagen de portada */}
+        <Image
+          src="/portada-patagonia.jpg"
+          alt="Patagonia Chilena — Región de Aysén"
+          fill
+          priority
+          className="object-cover object-center"
+          sizes="100vw"
+        />
+        {/* Overlay oscuro rgba(0,0,0,0.4) */}
+        <div className="absolute inset-0 bg-black/40" />
 
-            {/* Texto */}
-            <div className="flex-1 min-w-0">
-              <span className="inline-block border border-[#7FAA6A]/40 text-[#7FAA6A] text-sm font-medium px-4 py-1.5 rounded-full mb-6">
-                Coyhaique · Región de Aysén · Patagonia Chilena
-              </span>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
-                Gestores de Capital Natural e{' '}
-                <span className="text-[#7FAA6A]">Intermediarios Ambientales Integrales</span>{' '}
-                en Patagonia
-              </h1>
-              <p className="text-gray-300 text-lg leading-relaxed mb-10 max-w-xl">
-                Trabajamos con personas, empresas y organizaciones sociales de la región.
-                Desarrollamos procesos de sostenibilidad a diferentes escalas, protegiendo
-                el valor integral de la naturaleza con altos estándares ambientales.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link
-                  href="/contact"
-                  className="bg-[#5A7B5F] text-white font-semibold px-7 py-3.5 rounded-lg hover:bg-[#4a6a4f] transition-colors text-center"
-                >
-                  Asesoría sin compromiso
-                </Link>
-                <Link
-                  href="/services"
-                  className="border border-[#7FAA6A]/50 text-[#7FAA6A] font-semibold px-7 py-3.5 rounded-lg hover:bg-[#7FAA6A]/10 transition-colors text-center"
-                >
-                  Ver servicios
-                </Link>
+        {/* Contenido sobre el overlay */}
+        <div className="relative z-10 w-full">
+          <div className="container-max mx-auto px-4 md:px-8 lg:px-16 py-16 md:py-24">
+            <div className="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16">
+
+              {/* Texto */}
+              <div className="flex-1 min-w-0">
+                <span className="inline-block border border-[#7FAA6A]/60 text-[#7FAA6A] text-sm font-medium px-4 py-1.5 rounded-full mb-6">
+                  Región de Aysén, Patagonia Chilena
+                </span>
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
+                  Gestores de Capital Natural e{' '}
+                  <span className="text-[#7FAA6A]">Intermediarios Ambientales Integrales</span>{' '}
+                  en Patagonia
+                </h1>
+                <p className="text-gray-200 text-lg leading-relaxed mb-10 max-w-xl">
+                  Trabajamos con personas, empresas y organizaciones sociales de la región.
+                  Desarrollamos procesos de sostenibilidad a diferentes escalas, protegiendo
+                  el valor integral de la naturaleza y equilibrándolo con el desarrollo de
+                  los sectores productivos.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <Link
+                    href="/contact"
+                    className="bg-[#5A7B5F] text-white font-bold px-8 py-3.5 rounded-lg hover:bg-[#4a6a4f] transition-colors text-center tracking-wide"
+                  >
+                    HABLEMOS
+                  </Link>
+                  <Link
+                    href="/services"
+                    className="border-2 border-[#7FAA6A] text-white font-bold px-8 py-3.5 rounded-lg hover:bg-[#7FAA6A]/20 transition-colors text-center tracking-wide"
+                  >
+                    COTIZA CON NOSOTROS
+                  </Link>
+                </div>
               </div>
-            </div>
 
-            {/* Logo en alta calidad */}
-            <div className="shrink-0 flex items-center justify-center">
-              <Image
-                src="/logo.png"
-                alt="Ciclo Aysén SpA — Consultores"
-                width={380}
-                height={380}
-                priority
-                className="w-52 h-52 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 object-contain"
-                style={{ mixBlendMode: 'screen' }}
-              />
+              {/* Logo */}
+              <div className="shrink-0 flex items-center justify-center">
+                <Image
+                  src="/logo.png"
+                  alt="Ciclo Aysén SpA — Consultores"
+                  width={380}
+                  height={380}
+                  priority
+                  className="w-52 h-52 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 object-contain drop-shadow-2xl"
+                  style={{ mixBlendMode: 'screen' }}
+                />
+              </div>
             </div>
           </div>
         </div>
 
         {/* Separador sutil */}
-        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#5A7B5F]/40 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#5A7B5F]/60 to-transparent z-10" />
       </section>
 
       {/* LÍNEAS DE SERVICIO */}
@@ -138,13 +151,14 @@ export default function Home() {
           sizes="100vw"
         />
         <div className="absolute inset-0 bg-[#1C2B1F]/65 flex items-center justify-center px-6">
-          <div className="text-center max-w-2xl">
+          <div className="text-center max-w-3xl">
             <p className="text-xl md:text-3xl font-semibold text-white leading-relaxed italic">
-              "Desarrollamos procesos de sostenibilidad a diferentes escalas,
-              protegiendo el valor integral de la naturaleza."
+              "Desarrollamos procesos de sostenibilidad a diferentes escalas, protegiendo
+              el valor integral de la naturaleza y equilibrándolo con el desarrollo de
+              los sectores productivos."
             </p>
             <span className="inline-block mt-5 text-[#7FAA6A] text-sm tracking-wide">
-              Coyhaique · Región de Aysén · Patagonia Chilena
+              Región de Aysén, Patagonia Chilena
             </span>
           </div>
         </div>
@@ -162,9 +176,9 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="inline-block bg-[#5A7B5F] text-white font-semibold px-8 py-4 rounded-lg hover:bg-[#4a6a4f] transition-colors"
+            className="inline-block bg-[#5A7B5F] text-white font-bold px-8 py-4 rounded-lg hover:bg-[#4a6a4f] transition-colors tracking-wide"
           >
-            Contáctanos ahora
+            HABLEMOS
           </Link>
         </div>
       </section>

@@ -40,7 +40,7 @@ export default function ContactPage() {
                   {
                     icon: '📍',
                     title: 'Ubicación',
-                    content: 'Coyhaique, Región de Aysén\nPatagonia Chilena',
+                    content: 'Región de Aysén, Patagonia Chilena',
                     link: null,
                   },
                   {
@@ -48,6 +48,12 @@ export default function ContactPage() {
                     title: 'Correo electrónico',
                     content: 'yoaldiaz@cicloaysen.com',
                     link: 'mailto:yoaldiaz@cicloaysen.com',
+                  },
+                  {
+                    icon: '✉️',
+                    title: 'Correo electrónico',
+                    content: 'hzimmermann@cicloaysen.com',
+                    link: 'mailto:hzimmermann@cicloaysen.com',
                   },
                   {
                     icon: '📞',
