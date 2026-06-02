@@ -17,7 +17,7 @@ const serviceLines = [
     label: 'L2',
     title: 'Gestión Ambiental Integral',
     items: [
-      '2.1. Compliance y enforcement ambiental y regulatorio para empresas y sectores productivos regulados y no regulados',
+      '2.1. Asesoría en compliance ambiental y legislativo para empresas y sectores productivos regulados y no regulados',
       '2.2. Servicios profesionales de consultoría y prestación de servicios a entidades públicas',
     ],
   },
@@ -69,7 +69,7 @@ export default function Home() {
                     HABLEMOS
                   </Link>
                   <Link
-                    href="/services"
+                    href="/contact"
                     className="border-2 border-[#7FAA6A] text-white font-bold px-8 py-3.5 rounded-lg hover:bg-[#7FAA6A]/20 transition-colors text-center tracking-wide"
                   >
                     COTIZA CON NOSOTROS
@@ -130,10 +130,10 @@ export default function Home() {
                   ))}
                 </ul>
                 <Link
-                  href="/services"
+                  href="/contact"
                   className="inline-block mt-6 text-sm font-medium text-[#5A7B5F] hover:underline"
                 >
-                  Ver detalle →
+                  Contáctanos →
                 </Link>
               </div>
             ))}
