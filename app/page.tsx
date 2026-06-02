@@ -17,7 +17,7 @@ const serviceLines = [
     label: 'L2',
     title: 'Gestión Ambiental Integral',
     items: [
-      '2.1. Compliance and enforcement ambiental a empresas reguladas y no reguladas y sectores regulados de la producción',
+      '2.1. Compliance y enforcement ambiental y regulatorio para empresas y sectores productivos regulados y no regulados',
       '2.2. Servicios profesionales de consultoría y prestación de servicios a entidades públicas',
     ],
   },

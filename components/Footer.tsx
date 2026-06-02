@@ -49,8 +49,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <span>✉️</span>
-                <a href="mailto:yoaldiaz@cicloaysen.com" className="hover:text-white transition-colors">
-                  yoaldiaz@cicloaysen.com
+                <a href="mailto:ydiaz@cicloaysen.com" className="hover:text-white transition-colors">
+                  ydiaz@cicloaysen.com
                 </a>
               </li>
               <li className="flex items-center gap-2">

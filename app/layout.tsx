@@ -83,7 +83,7 @@ const jsonLd = {
       },
       contactPoint: {
         '@type': 'ContactPoint',
-        email: 'yoaldiaz@cicloaysen.com',
+        email: 'ydiaz@cicloaysen.com',
         contactType: 'customer service',
         availableLanguage: 'Spanish',
         areaServed: 'CL',
@@ -101,7 +101,7 @@ const jsonLd = {
         'Consultora ambiental especializada en gestión de capital natural, mercado de carbono, economía azul y compliance ambiental en la Región de Aysén, Patagonia chilena.',
       url: BASE_URL,
       telephone: '+56900000000',
-      email: 'yoaldiaz@cicloaysen.com',
+      email: 'ydiaz@cicloaysen.com',
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Coyhaique',

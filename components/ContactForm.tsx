@@ -48,7 +48,7 @@ export default function ContactForm() {
 
     setState('sending')
     try {
-      const res = await fetch('https://formsubmit.co/ajax/yoaldiaz@cicloaysen.com', {
+      const res = await fetch('https://formsubmit.co/ajax/ydiaz@cicloaysen.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({
@@ -187,7 +187,7 @@ export default function ContactForm() {
 
       {state === 'error' && (
         <p className="text-red-500 text-sm bg-red-50 border border-red-200 rounded-lg px-4 py-3">
-          Hubo un error al enviar el mensaje. Por favor intenta nuevamente o escríbenos directamente a yoaldiaz@cicloaysen.com
+          Hubo un error al enviar el mensaje. Por favor intenta nuevamente o escríbenos directamente a ydiaz@cicloaysen.com
         </p>
       )}
 

@@ -46,8 +46,8 @@ export default function ContactPage() {
                   {
                     icon: '✉️',
                     title: 'Correo electrónico',
-                    content: 'yoaldiaz@cicloaysen.com',
-                    link: 'mailto:yoaldiaz@cicloaysen.com',
+                    content: 'ydiaz@cicloaysen.com',
+                    link: 'mailto:ydiaz@cicloaysen.com',
                   },
                   {
                     icon: '✉️',
