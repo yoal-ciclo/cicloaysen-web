@@ -27,7 +27,6 @@ export default function Footer() {
             <ul className="space-y-2">
               {[
                 { href: '/', label: 'Inicio' },
-                { href: '/about', label: 'Quiénes somos' },
                 { href: '/services', label: 'Servicios' },
                 { href: '/contact', label: 'Contacto' },
               ].map((link) => (
@@ -49,14 +48,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <span>✉️</span>
-                <a href="mailto:ydiaz@cicloaysen.com" className="hover:text-white transition-colors">
-                  ydiaz@cicloaysen.com
-                </a>
-              </li>
-              <li className="flex items-center gap-2">
-                <span>✉️</span>
-                <a href="mailto:hzimmermann@cicloaysen.com" className="hover:text-white transition-colors">
-                  hzimmermann@cicloaysen.com
+                <a href="mailto:contacto@cicloaysen.com" className="hover:text-white transition-colors">
+                  contacto@cicloaysen.com
                 </a>
               </li>
             </ul>

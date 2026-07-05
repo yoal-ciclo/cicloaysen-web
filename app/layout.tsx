@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: '%s | Ciclo Aysén',
   },
   description:
-    'Consultora ambiental especializada en mercado de carbono, economía azul, compliance ambiental y financiamiento climático. Coyhaique, Región de Aysén, Chile.',
+    'Consultora ambiental especializada en mercado de carbono, economía azul, compliance ambiental y financiamiento climático. Región de Aysén, Patagonia Chilena.',
   keywords: [
     'consultora ambiental Aysén',
     'mercado de carbono Patagonia',
@@ -30,7 +30,8 @@ export const metadata: Metadata = {
     'financiamiento climático',
     'gestión capital natural',
     'Ciclo Aysén',
-    'Coyhaique',
+    'Región de Aysén',
+    'Patagonia',
   ],
   authors: [{ name: 'Ciclo Aysén SpA', url: BASE_URL }],
   creator: 'Ciclo Aysén SpA',
@@ -87,7 +88,7 @@ const jsonLd = {
       },
       contactPoint: {
         '@type': 'ContactPoint',
-        email: 'ydiaz@cicloaysen.com',
+        email: 'contacto@cicloaysen.com',
         contactType: 'customer service',
         availableLanguage: 'Spanish',
         areaServed: 'CL',
@@ -105,10 +106,9 @@ const jsonLd = {
         'Consultora ambiental especializada en gestión de capital natural, mercado de carbono, economía azul y compliance ambiental en la Región de Aysén, Patagonia chilena.',
       url: BASE_URL,
       telephone: '+56900000000',
-      email: 'ydiaz@cicloaysen.com',
+      email: 'contacto@cicloaysen.com',
       address: {
         '@type': 'PostalAddress',
-        addressLocality: 'Coyhaique',
         addressRegion: 'Región de Aysén',
         addressCountry: 'CL',
       },

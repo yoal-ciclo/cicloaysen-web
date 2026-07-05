@@ -56,23 +56,23 @@ export default function Home() {
                   en Patagonia
                 </h1>
                 <p className="text-gray-200 text-lg leading-relaxed mb-10 max-w-xl">
-                  Trabajamos con personas, empresas y organizaciones sociales de la región.
-                  Desarrollamos procesos de sostenibilidad a diferentes escalas, protegiendo
-                  el valor integral de la naturaleza y equilibrándolo con el desarrollo de
-                  los sectores productivos.
+                  Somos una consultora ambiental nacida y arraigada en la Región de Aysén.
+                  Unimos rigor técnico, conocimiento profundo de la regulación ambiental e
+                  innovación para transformar los desafíos ambientales en oportunidades de
+                  desarrollo para la Patagonia.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link
-                    href="/contact"
+                    href="/services"
                     className="bg-[#5A7B5F] text-white font-bold px-8 py-3.5 rounded-lg hover:bg-[#4a6a4f] transition-colors text-center tracking-wide"
                   >
-                    HABLEMOS
+                    NUESTROS SERVICIOS
                   </Link>
                   <Link
                     href="/contact"
                     className="border-2 border-[#7FAA6A] text-white font-bold px-8 py-3.5 rounded-lg hover:bg-[#7FAA6A]/20 transition-colors text-center tracking-wide"
                   >
-                    COTIZA CON NOSOTROS
+                    HABLEMOS
                   </Link>
                 </div>
               </div>
@@ -95,6 +95,73 @@ export default function Home() {
 
         {/* Separador sutil */}
         <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#5A7B5F]/60 to-transparent z-10" />
+      </section>
+
+      {/* MISIÓN, VISIÓN Y VALORES */}
+      <section className="section-padding bg-gray-50">
+        <div className="container-max mx-auto px-4 md:px-8 lg:px-16">
+          <div className="text-center mb-12">
+            <span className="text-xs font-semibold text-[#7FAA6A] uppercase tracking-widest">
+              Nuestra esencia
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-dark mt-3 mb-4">
+              Conocimiento del territorio, compromiso climático, servicio de excelencia
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
+            <div className="bg-white rounded-2xl border border-gray-100 p-8">
+              <h3 className="text-xl font-bold text-[#5A7B5F] mb-4">Misión</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Valorizar y gestionar el capital natural de la Patagonia, acompañando a
+                personas, empresas y comunidades en su relación con el medio ambiente,
+                desde el cumplimiento normativo hasta los mercados del carbono, la economía
+                azul y el financiamiento climático, permitiendo el desarrollo de economías
+                a diversas escalas con base en la sostenibilidad efectiva.
+              </p>
+            </div>
+            <div className="bg-white rounded-2xl border border-gray-100 p-8">
+              <h3 className="text-xl font-bold text-[#5A7B5F] mb-4">Visión</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Ser el referente en gestión de capital natural e intermediación ambiental
+                de la Región de Aysén y la Patagonia, reconocido por transformar la
+                exigencia ambiental en desarrollo sostenible y por poner el conocimiento
+                local al servicio del compromiso climático.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            {[
+              {
+                icon: '🏔️',
+                title: 'Identidad regional',
+                text: 'Somos de Aysén: su gente, su territorio y sus costumbres.',
+              },
+              {
+                icon: '🤝',
+                title: 'Confianza',
+                text: 'Relaciones de largo plazo, con seriedad y cumplimiento.',
+              },
+              {
+                icon: '📚',
+                title: 'Conocimiento técnico y normativo',
+                text: 'Equipo y red para desafíos complejos.',
+              },
+              {
+                icon: '🌎',
+                title: 'Compromiso climático con rostro local',
+                text: 'La región como protagonista del cuidado ambiental.',
+              },
+            ].map((v) => (
+              <div key={v.title} className="bg-white rounded-2xl border border-gray-100 p-6 text-center">
+                <span className="text-3xl">{v.icon}</span>
+                <h4 className="font-bold text-dark text-sm mt-3 mb-2">{v.title}</h4>
+                <p className="text-gray-500 text-xs leading-relaxed">{v.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
 
       {/* LÍNEAS DE SERVICIO */}
@@ -130,13 +197,21 @@ export default function Home() {
                   ))}
                 </ul>
                 <Link
-                  href="/contact"
+                  href="/services"
                   className="inline-block mt-6 text-sm font-medium text-[#5A7B5F] hover:underline"
                 >
-                  Contáctanos →
+                  Ver detalle de servicios →
                 </Link>
               </div>
             ))}
+          </div>
+          <div className="text-center mt-10">
+            <Link
+              href="/services"
+              className="inline-block bg-[#5A7B5F] text-white font-bold px-8 py-3.5 rounded-lg hover:bg-[#4a6a4f] transition-colors tracking-wide"
+            >
+              VER TODOS LOS SERVICIOS
+            </Link>
           </div>
         </div>
       </section>
@@ -153,9 +228,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[#1C2B1F]/65 flex items-center justify-center px-6">
           <div className="text-center max-w-3xl">
             <p className="text-xl md:text-3xl font-semibold text-white leading-relaxed italic">
-              "Desarrollamos procesos de sostenibilidad a diferentes escalas, protegiendo
-              el valor integral de la naturaleza y equilibrándolo con el desarrollo de
-              los sectores productivos."
+              "Conocimiento del territorio, compromiso climático, servicio de excelencia."
             </p>
             <span className="inline-block mt-5 text-[#7FAA6A] text-sm tracking-wide">
               Región de Aysén, Patagonia Chilena

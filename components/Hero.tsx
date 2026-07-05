@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="container-max mx-auto px-4 md:px-8 lg:px-16 py-20 md:py-28">
         <div className="max-w-3xl">
           <span className="inline-block bg-primary text-white text-sm font-medium px-4 py-1.5 rounded-full mb-6">
-            Coyhaique · Región de Aysén
+            Región de Aysén, Patagonia Chilena
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-dark leading-tight mb-6">
             Consultoría ambiental
