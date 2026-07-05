@@ -52,13 +52,13 @@ export default function ContactPage() {
                   {
                     icon: '📞',
                     title: 'Teléfono',
-                    content: 'Próximamente disponible',
-                    link: null,
+                    content: '+56 9 8746 5044',
+                    link: 'tel:+56987465044',
                   },
                   {
                     icon: '🕐',
                     title: 'Horario de atención',
-                    content: 'Lunes a viernes\n9:00 – 18:00 hrs (CLT)',
+                    content: 'Lunes a viernes\n9:00 – 18:00 hrs (CLT)\nHorarios flexibles según los requerimientos de nuestros clientes',
                     link: null,
                   },
                 ].map((item) => (

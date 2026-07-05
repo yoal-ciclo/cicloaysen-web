@@ -52,6 +52,12 @@ export default function Footer() {
                   contacto@cicloaysen.com
                 </a>
               </li>
+              <li className="flex items-center gap-2">
+                <span>📞</span>
+                <a href="tel:+56987465044" className="hover:text-white transition-colors">
+                  +56 9 8746 5044
+                </a>
+              </li>
             </ul>
             <div className="flex gap-4 mt-5">
               <a

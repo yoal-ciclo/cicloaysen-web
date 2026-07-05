@@ -105,7 +105,7 @@ const jsonLd = {
       description:
         'Consultora ambiental especializada en gestión de capital natural, mercado de carbono, economía azul y compliance ambiental en la Región de Aysén, Patagonia chilena.',
       url: BASE_URL,
-      telephone: '+56900000000',
+      telephone: '+56987465044',
       email: 'contacto@cicloaysen.com',
       address: {
         '@type': 'PostalAddress',
