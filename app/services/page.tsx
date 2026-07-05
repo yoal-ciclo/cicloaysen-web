@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Servicios | Ciclo Aysén SpA',
@@ -75,16 +76,25 @@ const line2 = {
 export default function ServicesPage() {
   return (
     <div>
-      {/* Header */}
-      <section className="bg-[#1C2B1F] py-16 md:py-24 px-4 md:px-8 lg:px-16">
-        <div className="container-max mx-auto text-center">
+      {/* Header — fondo fotográfico con overlay */}
+      <section className="relative overflow-hidden bg-[#1C2B1F] py-16 md:py-24 px-4 md:px-8 lg:px-16">
+        <Image
+          src="/servicios-1.jpg"
+          alt="Archipiélagos y canales de la Región de Aysén, Patagonia Chilena"
+          fill
+          priority
+          className="object-cover object-center"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-[#1C2B1F]/60" />
+        <div className="container-max mx-auto text-center relative z-10">
           <span className="text-[#7FAA6A] text-sm font-semibold uppercase tracking-wide">
             Lo que hacemos
           </span>
           <h1 className="text-4xl md:text-5xl font-bold text-white mt-3 mb-5">
             Nuestros Servicios
           </h1>
-          <p className="text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="text-gray-200 text-lg max-w-2xl mx-auto leading-relaxed">
             Soluciones integrales para sostenibilidad y regulación ambiental en el contexto patagónico
           </p>
         </div>
@@ -155,6 +165,27 @@ export default function ServicesPage() {
               </div>
             </div>
 
+          </div>
+        </div>
+      </section>
+
+      {/* NATURALEZA — franja fotográfica */}
+      <section className="relative h-72 md:h-96 overflow-hidden">
+        <Image
+          src="/servicios-2.jpg"
+          alt="Fiordos y montañas nevadas — Región de Aysén, Patagonia Chilena"
+          fill
+          className="object-cover object-center"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-[#1C2B1F]/50 flex items-center justify-center px-6">
+          <div className="text-center max-w-3xl">
+            <p className="text-xl md:text-3xl font-semibold text-white leading-relaxed italic">
+              "Conocimiento del territorio, compromiso climático, servicio de excelencia."
+            </p>
+            <span className="inline-block mt-5 text-[#7FAA6A] text-sm tracking-wide">
+              Región de Aysén, Patagonia Chilena
+            </span>
           </div>
         </div>
       </section>
