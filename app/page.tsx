@@ -51,9 +51,8 @@ export default function Home() {
                   Región de Aysén, Patagonia Chilena
                 </span>
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
-                  Gestores de Capital Natural e{' '}
-                  <span className="text-[#7FAA6A]">Intermediarios Ambientales Integrales</span>{' '}
-                  en Patagonia
+                  GESTIÓN DE CAPITAL NATURAL &amp;{' '}
+                  <span className="text-[#7FAA6A]">INTERMEDIACIÓN AMBIENTAL INTEGRAL</span>
                 </h1>
                 <p className="text-gray-200 text-lg leading-relaxed mb-10 max-w-xl">
                   Somos una consultora ambiental nacida y arraigada en la Región de Aysén.
