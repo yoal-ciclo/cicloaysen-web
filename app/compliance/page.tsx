@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Compliance | Ciclo Aysén SpA',
@@ -9,26 +10,32 @@ export const metadata: Metadata = {
 
 const principios = [
   {
+    icon: '⚖️',
     title: 'Legalidad y diligencia debida',
     text: 'Actuamos siempre dentro del marco legal vigente, verificando con diligencia el cumplimiento normativo de los proyectos, procesos y clientes que asesoramos, y absteniéndonos de participar en operaciones cuya licitud no pueda ser razonablemente verificada.',
   },
   {
+    icon: '🌱',
     title: 'Integridad ambiental',
     text: 'Nuestras recomendaciones se fundan en evidencia y en el mejor estándar técnico disponible. No promovemos ni avalamos prácticas de greenwashing, sobreestimación de líneas base de carbono, o cualquier forma de representación ambiental engañosa.',
   },
   {
+    icon: '🧭',
     title: 'Independencia y gestión de conflictos de interés',
     text: 'Identificamos y gestionamos activamente los conflictos de interés que puedan surgir del ejercicio simultáneo de asesorías a distintos actores, priorizando la transparencia y, cuando corresponda, absteniéndonos de intervenir.',
   },
   {
+    icon: '🔒',
     title: 'Confidencialidad y protección de datos',
     text: 'Resguardamos la confidencialidad de la información técnica, comercial y personal de nuestros clientes y de las comunidades con las que trabajamos, conforme a la Ley N° 19.628 y a los acuerdos de confidencialidad suscritos en cada mandato.',
   },
   {
+    icon: '🔄',
     title: 'Precaución y mejora continua',
     text: 'Aplicamos el principio precautorio en los análisis de riesgo ambiental y revisamos periódicamente nuestros procedimientos, metodologías y capacidades técnicas, incorporando avances normativos, científicos y de mercado.',
   },
   {
+    icon: '🏔️',
     title: 'Pertinencia territorial e indígena',
     text: 'Reconocemos la relevancia de los procesos de participación ciudadana y consulta indígena en los territorios donde operamos, y promovemos su ejercicio oportuno, informado y de buena fe.',
   },
@@ -105,6 +112,7 @@ export default function CompliancePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {principios.map((p) => (
               <div key={p.title} className="bg-white rounded-2xl border border-gray-100 p-6">
+                <span className="text-3xl block mb-3">{p.icon}</span>
                 <h3 className="font-bold text-[#5A7B5F] mb-3">{p.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{p.text}</p>
               </div>
@@ -131,6 +139,28 @@ export default function CompliancePage() {
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      {/* NATURALEZA — franja fotográfica */}
+      <section className="relative h-72 md:h-96 overflow-hidden">
+        <Image
+          src="/naturaleza-3.jpeg"
+          alt="Naturaleza de la Región de Aysén, Patagonia Chilena"
+          fill
+          className="object-cover object-center"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-[#1C2B1F]/50 flex items-center justify-center px-6">
+          <div className="text-center max-w-3xl">
+            <p className="text-xl md:text-3xl font-semibold text-white leading-relaxed italic">
+              "La exigencia ambiental, ejercida con rigor técnico, es una vía legítima de
+              desarrollo sostenible para la Patagonia."
+            </p>
+            <span className="inline-block mt-5 text-[#7FAA6A] text-sm tracking-wide">
+              Región de Aysén, Patagonia Chilena
+            </span>
+          </div>
         </div>
       </section>
 
