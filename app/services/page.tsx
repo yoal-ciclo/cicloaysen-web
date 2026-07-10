@@ -59,6 +59,7 @@ const line2 = {
         'Monitoreo y acompañamiento para el desarrollo de planes de cumplimiento ambiental.',
         'Representación legal ante tribunales y entidades administrativas en materia regulatoria.',
         'Asesoría técnica para reportabilidad ambiental.',
+        'Administración de contratos y prestación de servicios a empresas.',
       ],
     },
     {
