@@ -60,6 +60,7 @@ const line2 = {
         'Representación legal ante tribunales y entidades administrativas en materia regulatoria.',
         'Asesoría técnica para reportabilidad ambiental.',
         'Administración de contratos y prestación de servicios a empresas.',
+        'Auditoría de cumplimiento de planes y programas para empresas.',
       ],
     },
     {

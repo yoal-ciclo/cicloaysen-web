@@ -86,7 +86,7 @@ export default function CompliancePage() {
         <div className="container-max mx-auto px-4 md:px-8 lg:px-16 max-w-4xl">
           <h2 className="text-2xl md:text-3xl font-bold text-dark mb-6">Nuestro compromiso</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Ciclo Aysén SpA es una consultora ambiental nacida y arraigada en la Región de
+            Ciclo Aysén SpA es una empresa ambiental nacida y arraigada en la Región de
             Aysén, dedicada a la gestión del capital natural y a la intermediación ambiental
             integral en la Patagonia chilena. Esta política establece los principios,
             compromisos y mecanismos de compliance y de sostenibilidad ambiental que rigen

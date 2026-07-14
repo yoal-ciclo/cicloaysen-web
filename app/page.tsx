@@ -55,7 +55,7 @@ export default function Home() {
                   <span className="text-[#7FAA6A]">INTERMEDIACIÓN AMBIENTAL INTEGRAL</span>
                 </h1>
                 <p className="text-gray-200 text-lg leading-relaxed mb-10 max-w-xl">
-                  Somos una consultora ambiental nacida y arraigada en la Región de Aysén.
+                  Somos una empresa ambiental nacida y arraigada en la Región de Aysén.
                   Unimos rigor técnico, conocimiento profundo de la regulación ambiental e
                   innovación para transformar los desafíos ambientales en oportunidades de
                   desarrollo para la Patagonia.

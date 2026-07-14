@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     template: '%s | Ciclo Aysén',
   },
   description:
-    'Consultora ambiental especializada en mercado de carbono, economía azul, compliance ambiental y financiamiento climático. Región de Aysén, Patagonia Chilena.',
+    'Empresa ambiental especializada en mercado de carbono, economía azul, compliance ambiental y financiamiento climático. Región de Aysén, Patagonia Chilena.',
   keywords: [
-    'consultora ambiental Aysén',
+    'empresa ambiental Aysén',
     'mercado de carbono Patagonia',
     'compliance ambiental Chile',
     'economía azul',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: 'Ciclo Aysén SpA',
     title: 'Ciclo Aysén | Gestores de Capital Natural en Patagonia',
     description:
-      'Consultora ambiental: mercado carbono, economía azul, compliance ambiental. Aysén, Chile.',
+      'Empresa ambiental: mercado carbono, economía azul, compliance ambiental. Aysén, Chile.',
     images: [
       {
         url: '/og-image.jpg',
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Ciclo Aysén | Gestores de Capital Natural en Patagonia',
-    description: 'Consultora ambiental: mercado carbono, economía azul, compliance ambiental. Aysén, Chile.',
+    description: 'Empresa ambiental: mercado carbono, economía azul, compliance ambiental. Aysén, Chile.',
     images: ['/og-image.jpg'],
   },
   alternates: {
@@ -103,7 +103,7 @@ const jsonLd = {
       '@id': `${BASE_URL}/#localbusiness`,
       name: 'Ciclo Aysén SpA',
       description:
-        'Consultora ambiental especializada en gestión de capital natural, mercado de carbono, economía azul y compliance ambiental en la Región de Aysén, Patagonia chilena.',
+        'Empresa ambiental especializada en gestión de capital natural, mercado de carbono, economía azul y compliance ambiental en la Región de Aysén, Patagonia chilena.',
       url: BASE_URL,
       telephone: '+56987465044',
       email: 'contacto@cicloaysen.com',
