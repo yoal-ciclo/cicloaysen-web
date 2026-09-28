@@ -28,6 +28,8 @@ export default function Footer() {
               {[
                 { href: '/', label: 'Inicio' },
                 { href: '/services', label: 'Servicios' },
+                { href: '/experiencia', label: 'Experiencia' },
+                { href: '/equipo', label: 'Equipo' },
                 { href: '/compliance', label: 'Compliance' },
                 { href: '/contact', label: 'Contacto' },
               ].map((link) => (

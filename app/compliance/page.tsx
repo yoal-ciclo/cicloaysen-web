@@ -44,6 +44,8 @@ const principios = [
 const compromisos = [
   'Minimizar la huella de carbono de nuestra operación, priorizando el trabajo remoto, la digitalización de expedientes y la reducción de desplazamientos innecesarios.',
   'Privilegiar el uso de proveedores y contrapartes locales de la Región de Aysén, fortaleciendo cadenas de valor regionales.',
+  'Incorporar la perspectiva de género en todos nuestros procesos de contratación y en el diseño y ejecución de los servicios asociados.',
+  'Conformar equipos multidisciplinarios integrados mayoritariamente por profesionales de la Región de Aysén.',
   'Evaluar y, cuando sea pertinente, compensar la huella de carbono corporativa a través de proyectos de conservación o de mercado de carbono desarrollados en la propia región.',
   'Reducir el uso de papel, priorizando la gestión documental digital en informes, contratos y expedientes regulatorios.',
   'Incorporar criterios de sostenibilidad ambiental y social en la selección de proyectos y clientes, evitando prestar servicios a iniciativas cuyo objeto sea eludir o debilitar la normativa ambiental.',

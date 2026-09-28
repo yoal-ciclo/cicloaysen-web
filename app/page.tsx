@@ -10,6 +10,7 @@ const serviceLines = [
       '1.1. Desarrolladores de proyectos de mercado del carbono',
       '1.2. Incubadores de financiamiento climático',
       '1.3. Desarrollo de Economía azul',
+      '1.4. Biodiversidad y ecosistemas sensibles',
     ],
   },
   {
@@ -19,6 +20,8 @@ const serviceLines = [
     items: [
       '2.1. Asesoría en compliance ambiental y legislativo para empresas y sectores productivos regulados y no regulados',
       '2.2. Servicios profesionales de consultoría y prestación de servicios a entidades públicas',
+      '2.3. Evaluación ambiental y permisos sectoriales',
+      '2.4. Territorio y participación',
     ],
   },
 ]

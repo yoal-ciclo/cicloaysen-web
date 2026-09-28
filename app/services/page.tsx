@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Servicios | Ciclo Aysén SpA',
-  description: 'Soluciones integrales para sostenibilidad y regulación ambiental en la Patagonia chilena. Gestión del capital natural y gestión ambiental integral.',
+  description: 'Servicios de gestión del capital natural y gestión ambiental integral en la Patagonia chilena: evaluación ambiental, permisos sectoriales, compliance, participación y biodiversidad.',
 }
 
 const line1 = {
@@ -39,6 +39,17 @@ const line1 = {
         'Asesoría técnica, legal y acompañamiento a organizaciones de la sociedad civil.',
       ],
     },
+    {
+      icon: '🌲',
+      title: '1.4. Biodiversidad y Ecosistemas Sensibles',
+      items: [
+        'Líneas de base de capital natural y servicios ecosistémicos a escala de área de interés.',
+        'Identificación de ecosistemas sensibles (turberas, bosque nativo, humedales) para aplicar la jerarquía de mitigación desde el diseño de proyectos.',
+        'Diseño de medidas de compensación y conservación en la región, mediante instrumentos como el derecho real de conservación.',
+        'Asesoría en el marco de la Ley 21.660 sobre protección ambiental de las turberas.',
+        'Estimación y compensación de huella de carbono corporativa con proyectos desarrollados en Aysén.',
+      ],
+    },
   ],
 }
 
@@ -57,7 +68,8 @@ const line2 = {
         'Elaboración DIA/EIA.',
         'Revisión de instrumentos de tramitación ambiental al SEIA.',
         'Monitoreo y acompañamiento para el desarrollo de planes de cumplimiento ambiental.',
-        'Representación legal ante tribunales y entidades administrativas en materia regulatoria.',
+        'Defensa en procedimientos sancionatorios de la administración (SMA y organismos sectoriales).',
+        'Litigación ante Tribunales Ambientales.',
         'Asesoría técnica para reportabilidad ambiental.',
         'Administración de contratos y prestación de servicios a empresas.',
         'Auditoría de cumplimiento de planes y programas para empresas.',
@@ -70,6 +82,28 @@ const line2 = {
         'Ejecución de programas y/o proyectos mandatados por instituciones públicas.',
         'Asesoría técnica para reportabilidad ambiental.',
         'Elaboración de estudios e informes especializados en materia regulatoria.',
+      ],
+    },
+    {
+      icon: '📑',
+      title: '2.3. Evaluación Ambiental y Permisos Sectoriales',
+      items: [
+        'Consultas de pertinencia de ingreso al SEIA.',
+        'Permisos ambientales sectoriales: corta de bosque nativo (CONAF), intervención de cauces (DGA), patrimonio arqueológico y paleontológico (Consejo de Monumentos Nacionales), condiciones sanitarias de campamentos (SEREMI de Salud) y accesos a caminos públicos (Vialidad).',
+        'Tramitación de inicio de actividades de exploración ante SERNAGEOMIN.',
+        'Solicitudes de concesiones marítimas y permisos de escasa importancia.',
+        'Due diligence regulatoria de activos, concesiones y permisos, y continuidad de obligaciones ante cambio de titular u operador.',
+      ],
+    },
+    {
+      icon: '🤝',
+      title: '2.4. Territorio y Participación',
+      items: [
+        'Mapeo de actores y análisis de contexto territorial.',
+        'Diseño y conducción de procesos de participación ciudadana.',
+        'Procesos de consulta indígena conforme al Convenio 169 de la OIT.',
+        'Diseño y operación de mecanismos de quejas y reclamos.',
+        'Articulación de profesionales y proveedores regionales para servicios de apoyo en terreno.',
       ],
     },
   ],
