@@ -156,8 +156,8 @@ export default function CompliancePage() {
         <div className="absolute inset-0 bg-[#1C2B1F]/50 flex items-center justify-center px-6">
           <div className="text-center max-w-3xl">
             <p className="text-xl md:text-3xl font-semibold text-white leading-relaxed italic">
-              "La exigencia ambiental, ejercida con rigor técnico, es una vía legítima de
-              desarrollo sostenible para la Patagonia."
+              &quot;La exigencia ambiental, ejercida con rigor técnico, es una vía legítima de
+              desarrollo sostenible para la Patagonia.&quot;
             </p>
             <span className="inline-block mt-5 text-[#7FAA6A] text-sm tracking-wide">
               Región de Aysén, Patagonia Chilena

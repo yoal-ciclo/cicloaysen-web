@@ -1,0 +1,38 @@
+{
+  "slug": "_ejemplo",
+  "titulo": "Geólogo/a de terreno",
+  "estado": "cerrado",
+  "ubicacion": "Coyhaique, Región de Aysén",
+  "modalidad": "Presencial",
+  "jornada": "Completa",
+  "fechaPublicacion": "2026-10-22",
+  "fechaCierre": "2026-11-15",
+  "resumen": "Buscamos un geólogo o geóloga para apoyar levantamientos de terreno y la elaboración de informes técnicos en proyectos ambientales.",
+  "descripcion": [
+    "Ciclo Aysén SpA es una empresa ambiental de la Región de Aysén que desarrolla proyectos de gestión del capital natural y gestión ambiental integral.",
+    "El cargo se integra al equipo técnico para apoyar campañas de terreno, levantamiento de información geológica y elaboración de informes."
+  ],
+  "funciones": [
+    "Planificar y ejecutar campañas de terreno.",
+    "Levantar y sistematizar información geológica.",
+    "Elaborar informes técnicos y cartografía en SIG."
+  ],
+  "requisitos": [
+    "Título de geólogo/a.",
+    "Al menos 2 años de experiencia en terreno.",
+    "Licencia de conducir clase B."
+  ],
+  "deseables": [
+    "Experiencia en evaluación ambiental (SEIA).",
+    "Manejo de QGIS o ArcGIS."
+  ],
+  "preguntas": [
+    { "id": "p1", "texto": "¿Cuántos años de experiencia tiene en geología de terreno?", "tipo": "numero", "obligatoria": true },
+    { "id": "p2", "texto": "Describa un proyecto en que haya liderado una campaña de terreno.", "tipo": "texto_largo", "obligatoria": true, "maxCaracteres": 1500 },
+    { "id": "p3", "texto": "¿Tiene licencia de conducir clase B?", "tipo": "si_no", "obligatoria": true },
+    { "id": "p4", "texto": "Nivel de inglés", "tipo": "seleccion", "opciones": ["Básico", "Intermedio", "Avanzado"], "obligatoria": false },
+    { "id": "p5", "texto": "Pretensión de renta líquida mensual", "tipo": "texto_corto", "obligatoria": false },
+    { "id": "p6", "texto": "¿Qué software SIG maneja?", "tipo": "seleccion_multiple", "opciones": ["QGIS", "ArcGIS", "Otro"], "obligatoria": false },
+    { "id": "p7", "texto": "Fecha en que podría incorporarse", "tipo": "fecha", "obligatoria": false }
+  ]
+}

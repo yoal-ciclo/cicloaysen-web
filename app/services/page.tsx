@@ -217,7 +217,7 @@ export default function ServicesPage() {
         <div className="absolute inset-0 bg-[#1C2B1F]/50 flex items-center justify-center px-6">
           <div className="text-center max-w-3xl">
             <p className="text-xl md:text-3xl font-semibold text-white leading-relaxed italic">
-              "Conocimiento del territorio, compromiso climático, servicio de excelencia."
+              &quot;Conocimiento del territorio, compromiso climático, servicio de excelencia.&quot;
             </p>
             <span className="inline-block mt-5 text-[#7FAA6A] text-sm tracking-wide">
               Región de Aysén, Patagonia Chilena

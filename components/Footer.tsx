@@ -31,6 +31,7 @@ export default function Footer() {
                 { href: '/experiencia', label: 'Experiencia' },
                 { href: '/equipo', label: 'Equipo' },
                 { href: '/compliance', label: 'Compliance' },
+                { href: '/trabaja-con-nosotros', label: 'Trabaja con nosotros' },
                 { href: '/contact', label: 'Contacto' },
               ].map((link) => (
                 <li key={link.href}>

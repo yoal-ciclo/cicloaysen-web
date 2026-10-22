@@ -68,6 +68,12 @@ export default function Header() {
               </svg>
             </a>
             <Link
+              href="/trabaja-con-nosotros"
+              className="hidden lg:inline-block border border-white/30 text-gray-200 text-sm font-medium px-4 py-2 rounded-lg hover:border-[#7FAA6A] hover:text-[#7FAA6A] transition-colors whitespace-nowrap"
+            >
+              Trabaja con nosotros
+            </Link>
+            <Link
               href="/contact"
               className="bg-[#5A7B5F] text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-[#4a6a4f] transition-colors"
             >
@@ -103,6 +109,13 @@ export default function Header() {
                   {link.label}
                 </Link>
               ))}
+              <Link
+                href="/trabaja-con-nosotros"
+                className="text-gray-200 font-medium hover:text-[#7FAA6A] transition-colors"
+                onClick={() => setMenuOpen(false)}
+              >
+                Trabaja con nosotros
+              </Link>
             </nav>
             <div className="flex gap-4 mt-4 pt-4 border-t border-white/10">
               <a href="https://www.instagram.com/cicloaysen" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-gray-400 hover:text-[#7FAA6A]">
