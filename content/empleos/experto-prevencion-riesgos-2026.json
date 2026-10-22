@@ -1,0 +1,92 @@
+{
+  "slug": "experto-prevencion-riesgos-2026",
+  "titulo": "Experto/a en prevención de riesgos",
+  "estado": "abierto",
+  "ubicacion": "Coyhaique, Región de Aysén",
+  "modalidad": "Presencial",
+  "jornada": "Por proyecto",
+  "fechaPublicacion": "2026-10-22",
+  "fechaCierre": "2026-10-28",
+  "resumen": "Gestión de seguridad y salud en el trabajo para proyectos ambientales en la Región de Aysén, con presencia en campañas de terreno.",
+  "descripcion": [
+    "Ciclo Aysén está conformando equipos para proyectos de caracterización ambiental y gestión de permisos ambientales y sectoriales en la Región de Aysén, con trabajo de terreno entre diciembre de 2026 y marzo de 2027 y una duración estimada de hasta 24 meses. Las contrataciones están sujetas a la adjudicación de los proyectos. Los antecedentes específicos de cada proyecto se informan a los candidatos preseleccionados, bajo compromiso de confidencialidad.",
+    "Modalidad de prestación de servicios a honorarios, con presencia en terreno durante las campañas."
+  ],
+  "funciones": [
+    "Elaborar y mantener la matriz IPERC conforme al DS N° 44 y los procedimientos de trabajo seguro.",
+    "Gestionar la documentación de seguridad exigida por el cliente (acreditaciones, inducciones, EPP, estadísticas).",
+    "Acompañar las campañas de terreno y verificar el cumplimiento de los estándares de seguridad."
+  ],
+  "requisitos": [
+    "Título de Ingeniero/a o Técnico/a en Prevención de Riesgos.",
+    "Registro vigente ante la SEREMI de Salud.",
+    "Al menos 3 años de experiencia en faenas productivas o trabajos de terreno remotos."
+  ],
+  "deseables": [
+    "Registro ante Sernageomin.",
+    "Experiencia con estándares de seguridad de empresas de gran escala."
+  ],
+  "preguntas": [
+    {
+      "id": "p1",
+      "texto": "¿Cuántos años de experiencia profesional tiene en el área de este cargo?",
+      "tipo": "numero",
+      "obligatoria": true
+    },
+    {
+      "id": "p2",
+      "texto": "Describa el proyecto más relevante para este cargo en que haya participado: cliente o tipo de proyecto, su rol, año y resultado.",
+      "tipo": "texto_largo",
+      "obligatoria": true,
+      "maxCaracteres": 1500
+    },
+    {
+      "id": "p3",
+      "texto": "¿Reside actualmente en la Región de Aysén?",
+      "tipo": "si_no",
+      "obligatoria": true
+    },
+    {
+      "id": "p4",
+      "texto": "¿Tiene disponibilidad para trabajos de terreno entre diciembre de 2026 y marzo de 2027?",
+      "tipo": "si_no",
+      "obligatoria": true
+    },
+    {
+      "id": "p5",
+      "texto": "¿Está dispuesto/a a realizar exámenes preocupacionales (incluidos altura geográfica, alcohol y drogas) y la inducción de seguridad del cliente?",
+      "tipo": "si_no",
+      "obligatoria": true
+    },
+    {
+      "id": "p6",
+      "texto": "¿Puede firmar una carta de compromiso de participación antes del 30 de octubre de 2026?",
+      "tipo": "si_no",
+      "obligatoria": true
+    },
+    {
+      "id": "p7",
+      "texto": "Pretensión de renta líquida mensual u honorarios (indique si es mensual, por día o por producto)",
+      "tipo": "texto_corto",
+      "obligatoria": false
+    },
+    {
+      "id": "p8",
+      "texto": "Categoría de su registro ante la SEREMI de Salud",
+      "tipo": "seleccion",
+      "obligatoria": true,
+      "opciones": [
+        "Categoría A",
+        "Categoría B",
+        "Categoría C",
+        "Sin registro"
+      ]
+    },
+    {
+      "id": "p9",
+      "texto": "¿Cuenta con registro ante Sernageomin?",
+      "tipo": "si_no",
+      "obligatoria": true
+    }
+  ]
+}

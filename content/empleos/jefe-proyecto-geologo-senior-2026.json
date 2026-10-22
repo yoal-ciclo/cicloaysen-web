@@ -1,0 +1,105 @@
+{
+  "slug": "jefe-proyecto-geologo-senior-2026",
+  "titulo": "Jefe/a de proyecto - Geólogo/a senior",
+  "estado": "abierto",
+  "ubicacion": "Coyhaique, Región de Aysén",
+  "modalidad": "Presencial",
+  "jornada": "Completa",
+  "fechaPublicacion": "2026-10-22",
+  "fechaCierre": "2026-10-28",
+  "resumen": "Liderar por 24 meses la gestión de permisos ambientales y sectoriales y las campañas de terreno de proyectos ambientales en la Región de Aysén.",
+  "descripcion": [
+    "Ciclo Aysén está conformando equipos para proyectos de caracterización ambiental y gestión de permisos ambientales y sectoriales en la Región de Aysén, con trabajo de terreno entre diciembre de 2026 y marzo de 2027 y una duración estimada de hasta 24 meses. Las contrataciones están sujetas a la adjudicación de los proyectos. Los antecedentes específicos de cada proyecto se informan a los candidatos preseleccionados, bajo compromiso de confidencialidad.",
+    "El cargo considera contrato por la duración del proyecto, con base en Coyhaique y salidas a terreno durante las campañas."
+  ],
+  "funciones": [
+    "Dirigir la planificación y ejecución del plan de permisos ambientales y sectoriales.",
+    "Liderar en terreno las dos campañas de caracterización ambiental y coordinar a los especialistas.",
+    "Coordinar la elaboración de expedientes ante el SEA y los servicios sectoriales, y el levantamiento de observaciones.",
+    "Ser contraparte técnica del cliente: reportes y reuniones semanales, dashboard de avance y matrices de compromisos.",
+    "Velar por el cumplimiento de los estándares de seguridad y salud en todas las actividades."
+  ],
+  "requisitos": [
+    "Título de Geólogo/a.",
+    "Al menos 10 años de experiencia profesional, con experiencia en proyectos de terreno.",
+    "Experiencia en tramitación ambiental (consultas de pertinencia, DIA o EIA) y permisos sectoriales.",
+    "Experiencia en coordinación de equipos multidisciplinarios y trabajo en terreno.",
+    "Licencia de conducir clase B."
+  ],
+  "deseables": [
+    "Experiencia en proyectos de minería, energía o infraestructura.",
+    "Experiencia en la Región de Aysén.",
+    "Manejo de herramientas SIG.",
+    "Experiencia trabajando con empresas de gran escala y sus estándares de seguridad."
+  ],
+  "preguntas": [
+    {
+      "id": "p1",
+      "texto": "¿Cuántos años de experiencia profesional tiene en el área de este cargo?",
+      "tipo": "numero",
+      "obligatoria": true
+    },
+    {
+      "id": "p2",
+      "texto": "Describa el proyecto más relevante para este cargo en que haya participado: cliente o tipo de proyecto, su rol, año y resultado.",
+      "tipo": "texto_largo",
+      "obligatoria": true,
+      "maxCaracteres": 1500
+    },
+    {
+      "id": "p3",
+      "texto": "¿Reside actualmente en la Región de Aysén?",
+      "tipo": "si_no",
+      "obligatoria": true
+    },
+    {
+      "id": "p4",
+      "texto": "¿Tiene disponibilidad para trabajos de terreno entre diciembre de 2026 y marzo de 2027?",
+      "tipo": "si_no",
+      "obligatoria": true
+    },
+    {
+      "id": "p5",
+      "texto": "¿Está dispuesto/a a realizar exámenes preocupacionales (incluidos altura geográfica, alcohol y drogas) y la inducción de seguridad del cliente?",
+      "tipo": "si_no",
+      "obligatoria": true
+    },
+    {
+      "id": "p6",
+      "texto": "¿Puede firmar una carta de compromiso de participación antes del 30 de octubre de 2026?",
+      "tipo": "si_no",
+      "obligatoria": true
+    },
+    {
+      "id": "p7",
+      "texto": "Pretensión de renta líquida mensual u honorarios (indique si es mensual, por día o por producto)",
+      "tipo": "texto_corto",
+      "obligatoria": false
+    },
+    {
+      "id": "p8",
+      "texto": "¿Ha participado en la tramitación de consultas de pertinencia, DIA o EIA?",
+      "tipo": "si_no",
+      "obligatoria": true
+    },
+    {
+      "id": "p9",
+      "texto": "Indique los permisos sectoriales que ha gestionado (por ejemplo CONAF, DGA, SEREMI de Salud, Sernageomin, CMN) y su resultado.",
+      "tipo": "texto_largo",
+      "obligatoria": true,
+      "maxCaracteres": 1000
+    },
+    {
+      "id": "p10",
+      "texto": "¿Tiene licencia de conducir clase B vigente?",
+      "tipo": "si_no",
+      "obligatoria": true
+    },
+    {
+      "id": "p11",
+      "texto": "Fecha desde la que podría incorporarse",
+      "tipo": "fecha",
+      "obligatoria": true
+    }
+  ]
+}

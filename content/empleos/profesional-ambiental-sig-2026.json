@@ -1,0 +1,99 @@
+{
+  "slug": "profesional-ambiental-sig-2026",
+  "titulo": "Profesional ambiental con manejo SIG",
+  "estado": "abierto",
+  "ubicacion": "Coyhaique, Región de Aysén",
+  "modalidad": "Híbrida",
+  "jornada": "Completa",
+  "fechaPublicacion": "2026-10-22",
+  "fechaCierre": "2026-10-28",
+  "resumen": "Apoyar la gestión de permisos, la cartografía y el control de avance de proyectos ambientales en la Región de Aysén.",
+  "descripcion": [
+    "Ciclo Aysén está conformando equipos para proyectos de caracterización ambiental y gestión de permisos ambientales y sectoriales en la Región de Aysén, con trabajo de terreno entre diciembre de 2026 y marzo de 2027 y una duración estimada de hasta 24 meses. Las contrataciones están sujetas a la adjudicación de los proyectos. Los antecedentes específicos de cada proyecto se informan a los candidatos preseleccionados, bajo compromiso de confidencialidad."
+  ],
+  "funciones": [
+    "Elaborar cartografía, planos georreferenciados y capas SIG de los componentes ambientales.",
+    "Mantener el dashboard semanal de avance y las matrices de observaciones y compromisos.",
+    "Apoyar la redacción de expedientes ambientales y sectoriales.",
+    "Apoyar las campañas de terreno (registro, georreferenciación y fotografía)."
+  ],
+  "requisitos": [
+    "Título profesional en ingeniería ambiental, geografía, biología, recursos naturales o carrera afín.",
+    "Al menos 3 años de experiencia profesional.",
+    "Manejo avanzado de ArcGIS o QGIS.",
+    "Experiencia en evaluación ambiental o permisos sectoriales."
+  ],
+  "deseables": [
+    "Manejo de dron y tratamiento de imágenes.",
+    "Licencia de conducir clase B.",
+    "Experiencia en proyectos de minería, energía o infraestructura."
+  ],
+  "preguntas": [
+    {
+      "id": "p1",
+      "texto": "¿Cuántos años de experiencia profesional tiene en el área de este cargo?",
+      "tipo": "numero",
+      "obligatoria": true
+    },
+    {
+      "id": "p2",
+      "texto": "Describa el proyecto más relevante para este cargo en que haya participado: cliente o tipo de proyecto, su rol, año y resultado.",
+      "tipo": "texto_largo",
+      "obligatoria": true,
+      "maxCaracteres": 1500
+    },
+    {
+      "id": "p3",
+      "texto": "¿Reside actualmente en la Región de Aysén?",
+      "tipo": "si_no",
+      "obligatoria": true
+    },
+    {
+      "id": "p4",
+      "texto": "¿Tiene disponibilidad para trabajos de terreno entre diciembre de 2026 y marzo de 2027?",
+      "tipo": "si_no",
+      "obligatoria": true
+    },
+    {
+      "id": "p5",
+      "texto": "¿Está dispuesto/a a realizar exámenes preocupacionales (incluidos altura geográfica, alcohol y drogas) y la inducción de seguridad del cliente?",
+      "tipo": "si_no",
+      "obligatoria": true
+    },
+    {
+      "id": "p6",
+      "texto": "¿Puede firmar una carta de compromiso de participación antes del 30 de octubre de 2026?",
+      "tipo": "si_no",
+      "obligatoria": true
+    },
+    {
+      "id": "p7",
+      "texto": "Pretensión de renta líquida mensual u honorarios (indique si es mensual, por día o por producto)",
+      "tipo": "texto_corto",
+      "obligatoria": false
+    },
+    {
+      "id": "p8",
+      "texto": "Nivel de manejo de ArcGIS o QGIS",
+      "tipo": "seleccion",
+      "obligatoria": true,
+      "opciones": [
+        "Básico",
+        "Intermedio",
+        "Avanzado"
+      ]
+    },
+    {
+      "id": "p9",
+      "texto": "¿Cuenta con licencia de piloto de dron (DGAC)?",
+      "tipo": "si_no",
+      "obligatoria": false
+    },
+    {
+      "id": "p10",
+      "texto": "¿Tiene licencia de conducir clase B vigente?",
+      "tipo": "si_no",
+      "obligatoria": true
+    }
+  ]
+}
